@@ -1,0 +1,13 @@
+{
+  "name": "bank-statement-parser",
+  "version": "1.0.0",
+  "description": "PDF Bank Statement Parser for Indian Banks",
+  "main": "api/index.py",
+  "scripts": {
+    "dev": "python api/index.py",
+    "build": "echo 'Build complete'"
+  },
+  "keywords": ["pdf", "parser", "bank", "statement", "indian", "banks"],
+  "author": "Your Name",
+  "license": "MIT"
+}
