@@ -271,7 +271,7 @@ if uploaded_file is not None:
         <div style="background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%); padding: 1rem; border-radius: 10px; margin: 2rem 0;">
             <h3 style="color: white; text-align: center;">📥 Export Your Data</h3>
         </div>
-        """)
+        """, unsafe_allow_html=True)
         col1, col2 = st.columns(2)
         
         with col1:
@@ -360,3 +360,10 @@ if uploaded_file is not None:
         # Clean up temp file
         if os.path.exists(temp_path):
             os.remove(temp_path)
+
+# Footer
+st.markdown("""
+<div style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); padding: 1rem; border-radius: 10px; margin-top: 3rem; text-align: center; color: white;">
+    <p>📞 Contact: +91 8777654651</p>
+</div>
+""", unsafe_allow_html=True)
